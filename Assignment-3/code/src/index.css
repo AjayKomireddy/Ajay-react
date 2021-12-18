@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.site-container{
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading{
+width: 95%;
+height:150px;
+border: 1px solid rgb(112, 71, 71);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 15px 0 20px 20px;
+border-radius: 3px;
+
+}
+.employee{
+  margin-top: 40px;
+  text-align: center;
+}
+button{
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  width: 100px;
+  margin-top: 50px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+span{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+h4{
+  margin-top: 70px;
+  margin-left: 800px;
+}
+
+.customer-info{
+width:93.5%;
+height:140px;
+text-align: left;
+border: 1px solid rgb(124, 124, 90);
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+margin-left: 20px;
+padding-left: 20px;
+border-radius: 3px;
+}
+.order-info{
+width:87%;
+height:140px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border: 1px solid rgb(240, 155, 155);
+padding-left: 20px;
+padding-right: 100px;
+margin-bottom: 20px;
+margin-left: 20px;
+border-radius: 3px;
+
+}
+.product-list{
+  width:95%;
+  height:180px;
+  border: 1px solid rgb(98, 93, 146);
+  display: flex;
+  margin-left: 20px;
+  border-radius: 3px;
+  
+}
+img{
+  width:100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.checkBox{
+  border: 2px solid rgb(32, 32, 21);
+  width: 25px;
+  height: 25px;
+  margin: 60px 0 0 20px;
+}
+.personData{
+  margin-top: 30px;
 }
