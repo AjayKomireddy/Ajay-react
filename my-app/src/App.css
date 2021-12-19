@@ -1,0 +1,27 @@
+.Main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.image{
+  height: 150px;
+  width:150px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.Name{
+  color: rgb(30, 136, 136);
+
+}
+.key{
+color: gray;
+margin: 0%;
+padding: 0%;
+}
+.Value{
+  
+  margin: 0%;
+  padding: 0%;
+  
+}
