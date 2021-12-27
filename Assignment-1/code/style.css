@@ -1,6 +1,10 @@
 @media screen and (min-width:769px){
     .div1{
         width: 98%;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     
     }
     .box1{
@@ -68,6 +72,10 @@
 @media screen and (min-width:321px)  and (max-width:768px){
     .div1{
         width: 98%;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     
     }
     .box1{
@@ -135,6 +143,10 @@
 @media screen and (max-width:320px) {
     .div1{
         width: 98%;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     
     }
     .box1{
