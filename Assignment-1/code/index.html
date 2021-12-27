@@ -12,9 +12,24 @@
 </head>
 <body>
     <div id="root"></div>
-    <script type="text/babel">
+    <script type="text/babel" >
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+
+// ReactDOM.render(<div></div>,document.getElementById('root'));
+
+const box1a=React.createElement('div',{class:'box1a'},null)
+const box1b=React.createElement('div',{class:'box1b'},null)
+const box1=React.createElement('div',{class:'box1'},box1a,box1b)
+
+const box3a=React.createElement('div',{class:'box3a'},null)
+const box3b=React.createElement('div',{class:'box3b'},null)
+const box3c=React.createElement('div',{class:'box3c'},null)
+const box3=React.createElement('div',{class:'box3'},box3a,box3b,box3c)
+const box2=React.createElement('div',{class:'box2'},null)
+
+const div = React.createElement('div', { class: "div1" },box1,box2,box3);
+
+ReactDOM.render(div,document.getElementById('root'));
 
 </script>
 <!--
